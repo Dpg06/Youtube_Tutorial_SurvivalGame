@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cbda2ddcec1d440bad735a93a6bd48, type: 3}
+  m_Name: I_Build_Roof Angle Left
+  m_EditorClassIdentifier: 
+  itemName: BuildRoofAngleLeft
+  itemDesc: 
+  itemIcon: {fileID: 21300000, guid: af8e1721c38005a45a1f24fb6941f80a, type: 3}
+  quantity: 1
+  quantityMax: 10
+  stackOnGround: 0
+  itemType: 0
+  rarirtyLoot: 10
+  attribute:
+    name: 
+    type: 
+    quality: 
+    value: 0
+    max: 0
+    changeItemName: 
+    deleteItemAfterAction: 0
+    actions: []
+  interactWith: []
+  prf_Ground: {fileID: 2858318006520996190, guid: 93b6ef1342a72fd4885a08d4cecaf3c1,
+    type: 3}
+  prf_Arm: {fileID: 6124448774138225389, guid: fa45cebc8b8ff564e9832855dd109713, type: 3}
+  crafting:
+    isCraftable: 1
+    resultQuantity: 1
+    timeToCraft: 1
+    timer: 0
+    requireItems:
+    - requireName: Log
+      requireQuantity: 1
+  build:
+    buildObject: {fileID: 5487269721072241305, guid: df64557e65cd0e444ab02dcfbd437504,
+      type: 3}
+    snapType: 3
+    snapRequired: 1
+    canBeRotate: 0
+    angleRotation: 90

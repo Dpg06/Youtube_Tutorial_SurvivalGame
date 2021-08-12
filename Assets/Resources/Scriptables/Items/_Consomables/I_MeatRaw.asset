@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cbda2ddcec1d440bad735a93a6bd48, type: 3}
+  m_Name: I_MeatRaw
+  m_EditorClassIdentifier: 
+  itemName: MeatRaw
+  itemDesc: Viande cru.
+  itemIcon: {fileID: 21300000, guid: 9d5d7ea5a680d1746b5f703800183fb2, type: 3}
+  quantity: 1
+  quantityMax: 10
+  stackable: 1
+  stackOnGround: 1
+  itemType: 2
+  rarirtyLoot: 10
+  attribute:
+    name: Cooking
+    type: 
+    quality: 
+    value: 0
+    max: 0
+    changeItemName: MeatCooked
+    deleteItemAfterAction: 1
+    actions:
+    - type: 1
+      fonction: 
+      value: 5
+    - type: 4
+      fonction: AddHunger
+      value: 5
+  interactWith: []
+  prf_Ground: {fileID: 5269322637565638905, guid: b86d3e9b5d3ff1148bbdcd085b72e23f,
+    type: 3}
+  prf_Arm: {fileID: 0}
+  crafting:
+    isCraftable: 0
+    resultQuantity: 1
+    timeToCraft: 1
+    timer: 0
+    requireItems: []

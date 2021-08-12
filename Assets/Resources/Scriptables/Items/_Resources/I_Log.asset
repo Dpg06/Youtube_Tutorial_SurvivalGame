@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cbda2ddcec1d440bad735a93a6bd48, type: 3}
+  m_Name: I_Log
+  m_EditorClassIdentifier: 
+  itemName: Log
+  itemDesc: Buche de bois.
+  itemIcon: {fileID: 21300000, guid: 02806629a456d8b4faaaf5e578e64171, type: 3}
+  quantity: 1
+  quantityMax: 1
+  stackable: 0
+  stackOnGround: 0
+  itemType: 0
+  rarirtyLoot: 100
+  attribute:
+    name: 
+    type: 
+    quality: 
+    value: 0
+    max: 0
+    deleteItemAfterAction: 0
+    actions: []
+  prf_Ground: {fileID: 132105140900525191, guid: 1baeab7fb675d4b478303e41c6dfa794,
+    type: 3}
+  prf_Arm: {fileID: 0}
+  crafting:
+    isCraftable: 0
+    resultQuantity: 1
+    timeToCraft: 1
+    timer: 0
+    requireItems: []

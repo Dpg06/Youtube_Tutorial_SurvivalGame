@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cbda2ddcec1d440bad735a93a6bd48, type: 3}
+  m_Name: I_Tree
+  m_EditorClassIdentifier: 
+  itemName: Tree
+  itemDesc: 
+  itemIcon: {fileID: 0}
+  quantity: 1
+  quantityMax: 1
+  stackable: 0
+  stackOnGround: 0
+  itemType: 0
+  rarirtyLoot: 10
+  attribute:
+    name: Life
+    type: 
+    quality: 
+    value: 10
+    max: 10
+    deleteItemAfterAction: 0
+    actions: []
+  interactWith:
+  - SteelAxe
+  - StoneAxe
+  prf_Ground: {fileID: 0}
+  prf_Arm: {fileID: 0}
+  crafting:
+    isCraftable: 0
+    resultQuantity: 1
+    timeToCraft: 1
+    timer: 0
+    requireItems: []

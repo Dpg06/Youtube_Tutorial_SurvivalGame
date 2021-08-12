@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c6430f857def742867e201a7331b5f, type: 3}
+  m_Name: I_BoxMilitary Mini
+  m_EditorClassIdentifier: 
+  itemName: Military Box Mini
+  itemDesc: 
+  itemIcon: {fileID: 21300000, guid: 63a399a209ba75a45834bcf8e406ac07, type: 3}
+  quantity: 1
+  quantityMax: 1
+  stackable: 0
+  stackOnGround: 0
+  itemType: 5
+  rarirtyLoot: 0
+  attribute:
+    name: 
+    type: 
+    quality: 
+    value: 0
+    max: 0
+    deleteItemAfterAction: 0
+    actions: []
+  prf_Ground: {fileID: 8150416966135040673, guid: 59eb9c30a93c5e141aa03d15e9ab11cc,
+    type: 3}
+  prf_Arm: {fileID: 0}
+  crafting:
+    isCraftable: 0
+    resultQuantity: 1
+    timeToCraft: 1
+    timer: 0
+    requireItems: []
+  capacity: 2
+  slotList: []
+  useRandomLoot: 1
+  randomListCreated: 0
+  lootType: Military
+  lootItems: []

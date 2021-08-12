@@ -1,0 +1,13 @@
+
+
+// DEBUG
+	
+ - 
+
+
+// PROBLEMES :
+
+ - Peux utiliser les tools sur Rock mais usée.
+   * debug = Verification des attributes bool(item.attribute.value <= 0).
+ - Tir des armes mal centré !
+   * voir fonction LookTarget sur la caméra.

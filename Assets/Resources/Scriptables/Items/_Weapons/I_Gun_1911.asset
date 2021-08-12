@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4533995bb6da1c4abea0b961376d243, type: 3}
+  m_Name: I_Gun_1911
+  m_EditorClassIdentifier: 
+  itemName: 1911
+  itemDesc: 
+  itemIcon: {fileID: 21300000, guid: 5efaa166ede7bb246996971483962b6b, type: 3}
+  quantity: 1
+  quantityMax: 1
+  stackable: 0
+  stackOnGround: 0
+  itemType: 3
+  rarirtyLoot: 20
+  attribute:
+    name: Break
+    type: Not used
+    quality: 
+    value: 100
+    max: 100
+    deleteItemAfterAction: 0
+    actions: []
+  interactWith: []
+  prf_Ground: {fileID: 4535369897851787429, guid: 0eaf94f3f8ff30d45996eacdd7fb2bcc,
+    type: 3}
+  prf_Arm: {fileID: 993969032593284958, guid: bc79ce6c1ae3d1b43968750ba6c155d3, type: 3}
+  crafting:
+    isCraftable: 0
+    resultQuantity: 1
+    timeToCraft: 1
+    timer: 0
+    requireItems: []
+  fireRate: 0.1
+  isAutomatic: 0
+  recoilForce: 0.4
+  crosshairForce: 10
+  ammo: 10
+  ammoMax: 10
+  isRealoding: 0
+  isZooming: 0

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cbda2ddcec1d440bad735a93a6bd48, type: 3}
+  m_Name: I_Furnace
+  m_EditorClassIdentifier: 
+  itemName: Furnace
+  itemDesc: Four a minerai
+  itemIcon: {fileID: 0}
+  quantity: 1
+  quantityMax: 1
+  stackable: 0
+  stackOnGround: 0
+  itemType: 9
+  rarirtyLoot: 10
+  attribute:
+    name: 
+    type: 
+    quality: 
+    value: 0
+    max: 0
+    changeItemName: 
+    deleteItemAfterAction: 0
+    actions: []
+  interactWith: []
+  prf_Ground: {fileID: 5110071783716648268, guid: ef30a8a9f5c0fed4a8b8d3ad6649f70e,
+    type: 3}
+  prf_Arm: {fileID: 0}
+  crafting:
+    isCraftable: 0
+    resultQuantity: 1
+    timeToCraft: 1
+    timer: 0
+    requireItems: []

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cbda2ddcec1d440bad735a93a6bd48, type: 3}
+  m_Name: I_MeatBurn
+  m_EditorClassIdentifier: 
+  itemName: MeatBurn
+  itemDesc: "Viande brul\xE9e."
+  itemIcon: {fileID: 21300000, guid: bdc3bd1e0555c8c448b90bcb228564c8, type: 3}
+  quantity: 1
+  quantityMax: 10
+  stackable: 1
+  stackOnGround: 1
+  itemType: 2
+  rarirtyLoot: 10
+  attribute:
+    name: 
+    type: 
+    quality: 
+    value: 0
+    max: 0
+    deleteItemAfterAction: 0
+    actions: []
+  interactWith: []
+  prf_Ground: {fileID: 6760771070978976049, guid: 365692504c8f39a4f93bcf05d9857a6f,
+    type: 3}
+  prf_Arm: {fileID: 0}
+  crafting:
+    isCraftable: 0
+    resultQuantity: 1
+    timeToCraft: 1
+    timer: 0
+    requireItems: []

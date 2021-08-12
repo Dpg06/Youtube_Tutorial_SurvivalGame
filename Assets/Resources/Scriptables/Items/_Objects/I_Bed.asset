@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7cbda2ddcec1d440bad735a93a6bd48, type: 3}
+  m_Name: I_Bed
+  m_EditorClassIdentifier: 
+  itemName: Bed
+  itemDesc: 
+  itemIcon: {fileID: 21300000, guid: c5f9b47f0a9023a4da700ef2d57b7f17, type: 3}
+  quantity: 1
+  quantityMax: 10
+  stackOnGround: 0
+  itemType: 0
+  rarirtyLoot: 10
+  attribute:
+    name: 
+    type: 
+    quality: 
+    value: 0
+    max: 0
+    changeItemName: 
+    deleteItemAfterAction: 0
+    actions: []
+  interactWith: []
+  prf_Ground: {fileID: 3230849643918968432, guid: 159b174ff09a93348be21b98167d45ac,
+    type: 3}
+  prf_Arm: {fileID: 6124448774138225389, guid: fa45cebc8b8ff564e9832855dd109713, type: 3}
+  crafting:
+    isCraftable: 1
+    resultQuantity: 1
+    timeToCraft: 1
+    timer: 0
+    requireItems:
+    - requireName: Log
+      requireQuantity: 1
+  build:
+    buildObject: {fileID: 1793170571705988997, guid: 7727197ad55f90d4db91ed54fcd3a43a,
+      type: 3}
+    snapType: 0
+    snapRequired: 0
+    canBeRotate: 1
+    angleRotation: 10

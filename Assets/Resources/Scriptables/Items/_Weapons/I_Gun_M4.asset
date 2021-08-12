@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4533995bb6da1c4abea0b961376d243, type: 3}
+  m_Name: I_Gun_M4
+  m_EditorClassIdentifier: 
+  itemName: M4
+  itemDesc: 
+  itemIcon: {fileID: 21300000, guid: 8360c31909f4857469bf853ea07fe509, type: 3}
+  quantity: 1
+  quantityMax: 1
+  stackable: 0
+  stackOnGround: 0
+  itemType: 3
+  rarirtyLoot: 20
+  attribute:
+    name: Break
+    type: 
+    quality: 
+    value: 100
+    max: 100
+    deleteItemAfterAction: 0
+    actions: []
+  prf_Ground: {fileID: 7302839714675018874, guid: c182a386e35ab4d4bace9ea9814b0f22,
+    type: 3}
+  prf_Arm: {fileID: 5960844070279723171, guid: f7557c352bd5d84409fa04e891ea6134, type: 3}
+  crafting:
+    isCraftable: 0
+    resultQuantity: 1
+    timeToCraft: 1
+    timer: 0
+    requireItems: []
+  fireRate: 0.1
+  isAutomatic: 1
+  recoilForce: 0.4
+  crosshairForce: 10
+  ammo: 30
+  ammoMax: 30
+  isRealoding: 0
+  isZooming: 0
